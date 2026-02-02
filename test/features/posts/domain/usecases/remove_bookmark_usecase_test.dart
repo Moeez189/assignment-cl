@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:test/features/posts/domain/repositories/post_repository.dart';
-import 'package:test/features/posts/domain/usecases/remove_bookmark_usecase.dart';
+import 'package:posts_app/features/posts/domain/repositories/post_repository.dart';
+import 'package:posts_app/features/posts/domain/usecases/remove_bookmark_usecase.dart';
 
 class MockPostRepository extends Mock implements PostRepository {}
 

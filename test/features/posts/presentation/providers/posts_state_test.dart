@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:test/features/posts/domain/entities/post.dart';
-import 'package:test/features/posts/domain/entities/user.dart';
-import 'package:test/features/posts/presentation/providers/posts_state.dart';
+import 'package:posts_app/features/posts/domain/entities/post.dart';
+import 'package:posts_app/features/posts/domain/entities/user.dart';
+import 'package:posts_app/features/posts/presentation/providers/posts_state.dart';
 
 void main() {
   late Post post1;

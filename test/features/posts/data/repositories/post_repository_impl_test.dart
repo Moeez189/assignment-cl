@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:test/features/posts/data/datasources/post_local_datasource.dart';
-import 'package:test/features/posts/data/datasources/post_remote_datasource.dart';
-import 'package:test/features/posts/data/models/post_model.dart';
-import 'package:test/features/posts/data/models/user_model.dart';
-import 'package:test/features/posts/data/repositories/post_repository_impl.dart';
-import 'package:test/features/posts/domain/entities/post.dart';
-import 'package:test/features/posts/domain/entities/user.dart';
+import 'package:posts_app/features/posts/data/datasources/post_local_datasource.dart';
+import 'package:posts_app/features/posts/data/datasources/post_remote_datasource.dart';
+import 'package:posts_app/features/posts/data/models/post_model.dart';
+import 'package:posts_app/features/posts/data/models/user_model.dart';
+import 'package:posts_app/features/posts/data/repositories/post_repository_impl.dart';
+import 'package:posts_app/features/posts/domain/entities/post.dart';
+import 'package:posts_app/features/posts/domain/entities/user.dart';
 
 class MockPostRemoteDataSource extends Mock implements PostRemoteDataSource {}
 

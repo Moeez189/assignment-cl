@@ -1,16 +1,16 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:logger/logger.dart';
 import 'package:mocktail/mocktail.dart';
-import 'package:test/core/utils/app_logger.dart';
-import 'package:test/features/posts/domain/entities/post.dart';
-import 'package:test/features/posts/domain/entities/user.dart';
-import 'package:test/features/posts/domain/usecases/add_bookmark_usecase.dart';
-import 'package:test/features/posts/domain/usecases/get_bookmarks_usecase.dart';
-import 'package:test/features/posts/domain/usecases/get_posts_usecase.dart';
-import 'package:test/features/posts/domain/usecases/get_users_usecase.dart';
-import 'package:test/features/posts/domain/usecases/remove_bookmark_usecase.dart';
-import 'package:test/features/posts/presentation/providers/posts_provider.dart';
-import 'package:test/features/posts/presentation/providers/posts_state.dart';
+import 'package:posts_app/core/utils/app_logger.dart';
+import 'package:posts_app/features/posts/domain/entities/post.dart';
+import 'package:posts_app/features/posts/domain/entities/user.dart';
+import 'package:posts_app/features/posts/domain/usecases/add_bookmark_usecase.dart';
+import 'package:posts_app/features/posts/domain/usecases/get_bookmarks_usecase.dart';
+import 'package:posts_app/features/posts/domain/usecases/get_posts_usecase.dart';
+import 'package:posts_app/features/posts/domain/usecases/get_users_usecase.dart';
+import 'package:posts_app/features/posts/domain/usecases/remove_bookmark_usecase.dart';
+import 'package:posts_app/features/posts/presentation/providers/posts_provider.dart';
+import 'package:posts_app/features/posts/presentation/providers/posts_state.dart';
 
 class MockGetPostsUseCase extends Mock implements GetPostsUseCase {}
 

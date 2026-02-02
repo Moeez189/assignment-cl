@@ -2,8 +2,8 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:test/main.dart';
-import 'package:test/features/posts/presentation/providers/posts_provider.dart';
+import 'package:posts_app/main.dart';
+import 'package:posts_app/features/posts/presentation/providers/posts_provider.dart';
 
 import 'helpers/fake_post_remote_datasource.dart';
 
