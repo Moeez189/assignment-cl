@@ -19,6 +19,7 @@ mixin SnackBarMixin {
       ),
     );
   }
+  //create restart app
 
   void showSuccessSnackBar(BuildContext context, String message) {
     ScaffoldMessenger.of(context).hideCurrentSnackBar();
